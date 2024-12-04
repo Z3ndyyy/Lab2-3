@@ -1,14 +1,17 @@
 /* Загальні стилі для сторінки */
-body {
-    /* Шлях до фону */
-    background-image: url('../img/2.jpg'); /* Перевірте шлях і розширення файлу */
-    background-color: black; /* Резервний колір фону, якщо зображення не завантажиться */
-    background-size: cover; /* Розтягнути фон по всій сторінці */
-    background-repeat: no-repeat; /* Заборонити повторення зображення */
-    background-position: center; /* Розташувати фон у центрі */
-    font-family: Arial, sans-serif;
-    margin: 0;
+html, body {
+    height: 100%; /* Забезпечує, що body займатиме всю висоту вікна */
+    margin: 0; /* Видаляє стандартні відступи браузера */
     padding: 0;
+}
+
+body {
+    background-image: url('../img/2.jpg') !important; /* Фонова картинка */
+    background-color: black !important; /* Резервний фон */
+    background-size: cover !important; /* Розтягнути фон по всій сторінці */
+    background-repeat: no-repeat !important; /* Заборонити повторення зображення */
+    background-position: center !important; /* Розташувати фон у центрі */
+    font-family: Arial, sans-serif;
     color: white;
 }
 
